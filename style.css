@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,600;1,700;1,900&display=swap');
 
 body {
@@ -126,8 +127,9 @@ body {
 .navbar .logo img {
   width: 76px;
   height: 20px;
-  font-family: sans-serif;
-  font-weight: bold;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 26px;
   line-height: 20px;
   text-decoration: none;
@@ -156,19 +158,21 @@ body {
 
 .main-header {
   width: 327px;
+  left: 24px;
   margin-left: 24px;
   height: 150px;
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
+  font-size: 40px;
   line-height: 52px;
+  display: flex;
   align-items: center;
   color: #172b4d;
 }
 
 .main-header h2 {
   margin-top: 150px;
-  font-size: 40px;
 }
 
 .main-content {
@@ -179,7 +183,9 @@ body {
 }
 
 .main-content p {
+  width: 327px;
   font-family: Poppins, sans-serif;
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -189,7 +195,8 @@ body {
 
 .connect a {
   margin-left: 24px;
-  font-family: Poppins, sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;

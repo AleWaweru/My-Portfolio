@@ -2,14 +2,17 @@
 
 body {
   background-color: rgb(229, 229, 229);
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-  width: 375px;
+  width: 100%;
   height: 5410px;
   top: -1883px;
   left: 11282px;
   background-color: #fff !important;
+  cursor: pointer;
 
 }
 
@@ -23,7 +26,7 @@ top: 405px;
 transform: rotate(-360.08deg);
 }
 .header-bg .Ellipse13{
-  position: absolute;
+position: absolute;
 width: 36.9px;
 height: 16px;
 font-size: 50px;
@@ -55,8 +58,8 @@ transform: rotate(-340.08deg);
   width: 55px;
   height: 55px;
   font-size: 10px !important;
-  top: 65px;
-  left: 310px;
+  top: 95px;
+  left: 290px;
   transform: rotate(-360.08deg);
 }
 .header-bg .Rectangle4{
@@ -64,7 +67,7 @@ transform: rotate(-340.08deg);
   width: 70px;
   height: 50px;
   font-size: 3px;
-  top: 40px;
+  top: 60px;
   left: 280px;
   transform: rotate(-360.08deg);
 }
@@ -106,6 +109,16 @@ transform: rotate(-340.08deg);
 
 
 /*-------HEADER SECTION STYLING------*/
+
+.main{
+  justify-content: center;
+}
+.header2{
+  width: 50%;
+}
+.primary-text2 p{
+  margin-bottom: 20px;
+}
 
 .header {
   display: flex;
@@ -189,12 +202,25 @@ color: #7F8CFF;
   margin-bottom: 60px;
 }
 .icons .twitter{
-  margin-right: 5px;
+  margin-right: 10px;
 }
 .icons .medium{
-  margin-left: 5px;
+  margin-left: 10px;
 }
 .icons .github{
-  margin-right: 5px;
-  margin-left: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
+
+@media screen and (min-width:375px) {
+  .container {
+    width: 100%;
+    height: 5410px;
+    top: -1883px;
+    left: 11282px;
+    background-color: #fff !important;
+    cursor: pointer;
+  
+  }
+}
+

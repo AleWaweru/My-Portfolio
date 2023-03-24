@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,600;1,700;1,900&display=swap');
+
 body {
   background-color: #e5e5e5;
 }
@@ -6,93 +8,98 @@ body {
   position: absolute;
   width: 375px;
   height: 718px;
-  left: 0px;
-  top: 0px;
-  background: #ffffff;
+  left: 0;
+  top: 0;
+  background: #fff;
   overflow: hidden;
 }
 
-/*------Background image styling----*/
-.Ellipse11{
-position: absolute;
-width: 55.5px;
-height: 30.25px;
-left: -30px;
-top: 90.47px;
+/* ------Background image styling---- */
+.Ellipse11 {
+  position: absolute;
+  width: 55.5px;
+  height: 30.25px;
+  left: -30px;
+  top: 90.47px;
+  transform: rotate(-350.88deg);
+}
 
-transform: rotate(-350.88deg);
-}
-.Rectangle6{
-position: absolute;
-width: 51.99px;
-height: 9.3px;
-left: -37px;
-top: 90.49px;
-background: #EBEBFF;
-transform: rotate(-46.14deg);
-}
-.Ellipse5{
+.Rectangle6 {
   position: absolute;
-width: 11px;
-height: 10px;
-left: 132.98px;
-top: 96.81px;
+  width: 51.99px;
+  height: 9.3px;
+  left: -37px;
+  top: 90.49px;
+  background: #ebebff;
+  transform: rotate(-46.14deg);
+}
 
-transform: rotate(52.97deg);
-}
-.Rectangle7{
+.Ellipse5 {
   position: absolute;
-width: 26.46px;
-height: 4.73px;
-left: 127.18px;
-top: 90.59px;
-background: #6070FF;
-transform: matrix(0.76, 0.65, 0.65, -0.76, 0, 0);
+  width: 11px;
+  height: 10px;
+  left: 132.98px;
+  top: 96.81px;
+  transform: rotate(52.97deg);
 }
-.Rectangle4{
-  position: absolute;
-width: 95.58px;
-height: 22.02px;
-left: 294px;
-top: 167.79px;
-background: #EBEBFF;
-transform: rotate(-40deg);
 
-}
-.Ellipse3{
+.Rectangle7 {
   position: absolute;
-width: 105px;
-height: 105px;
-left: 323px;
-top: 180.24px;
-transform: rotate(40deg);
+  width: 26.46px;
+  height: 4.73px;
+  left: 127.18px;
+  top: 90.59px;
+  background: #6070ff;
+  transform: matrix(0.76, 0.65, 0.65, -0.76, 0, 0);
 }
-.Rectangle5{
-position: absolute;
-width: 68.06px;
-height: 12.18px;
-left: 170.82px;
-top: 654px;
-background: #EBEBFF;
-transform: rotate(23.34deg);
-}
-.Ellipse4{
+
+.Rectangle4 {
   position: absolute;
-width: 20px;
-height: 20px;
-left: 225px;
-top: 645.1px;
+  width: 95.58px;
+  height: 22.02px;
+  left: 294px;
+  top: 167.79px;
+  background: #ebebff;
+  transform: rotate(-40deg);
 }
-.Ellipse13{
+
+.Ellipse3 {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 323px;
+  top: 180.24px;
+  transform: rotate(40deg);
+}
+
+.Rectangle5 {
+  position: absolute;
+  width: 68.06px;
+  height: 12.18px;
+  left: 170.82px;
+  top: 654px;
+  background: #ebebff;
+  transform: rotate(23.34deg);
+}
+
+.Ellipse4 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 225px;
+  top: 645.1px;
+}
+
+.Ellipse13 {
   position: absolute;
   width: 30.1px;
   height: 30.1px;
   left: 290.18px;
   top: 568.44px;
   transform: rotate(-30.41deg);
-
 }
-.Ellipse12{
+
+.Ellipse12 {
   position: absolute;
   width: 24.14px;
   height: 12.07px;
@@ -100,7 +107,8 @@ top: 645.1px;
   top: 556.69px;
   transform: rotate(-6.08deg);
 }
-.Ellipse15pro{
+
+.Ellipse15pro {
   box-sizing: border-box;
   position: absolute;
   width: 15px;
@@ -109,17 +117,17 @@ top: 645.1px;
   top: 645px;
 }
 
-/*-------NAVBAR STYLING--------*/
+/* -------NAVBAR STYLING-------- */
 .navbar {
   display: flex;
   justify-content: space-between;
 }
+
 .navbar .logo img {
   width: 76px;
   height: 20px;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
+  font-family: sans-serif;
+  font-weight: bold;
   font-size: 26px;
   line-height: 20px;
   text-decoration: none;
@@ -131,95 +139,97 @@ top: 645.1px;
   margin-top: 24px;
   margin-bottom: 80px;
 }
-.menu-bar img {
+
+.navbar .menu-bar img {
   margin-right: 40px;
   margin-top: 24px;
   width: 16px;
   left: 4px;
   font-weight: 700;
-  font-size:10px ;
+  font-size: 10px;
 }
 
-/*------MAIN SECTION STYLING-------*/
+/* ------MAIN SECTION STYLING------- */
 .main {
   margin-top: 20px;
 }
+
 .main-header {
   width: 327px;
-  left: 24px;
   margin-left: 24px;
   height: 150px;
-  font-family: "Poppins";
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
   line-height: 52px;
-  display: flex;
   align-items: center;
   color: #172b4d;
-  left: 24px;
 }
-.main-header h2{
+
+.main-header h2 {
   margin-top: 150px;
- }
+  font-size: 40px;
+}
+
 .main-content {
   margin-left: 24px;
   width: 327px;
-  font-family: "Poppins";
+  font-family: Poppins, sans-serif;
   height: 150px;
 }
+
 .main-content p {
-  width: 327px;
-  font-family: "Poppins";
-  font-style: normal;
+  font-family: Poppins, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #344563;
   margin-top: 110px;
-  width: 80%;
 }
 
 .connect a {
   margin-left: 24px;
-  font-family: "Poppins";
-  font-style: normal;
+  font-family: Poppins, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7F8CFF;
+  color: #7f8cff;
   text-decoration: none;
-  margin-top:10px ;
+  margin-top: 10px;
 }
 
-/*----ICON STYLING----*/
+/* ----ICON STYLING---- */
 
 .icons {
   margin-left: 24px;
   margin-top: 10px;
 }
-.icons  .twitter{
-  margin-right: 10px;
-}
-.icons .vector2{
-  margin-right: 10px;
-}
-.icons .vectorM{
-  margin-right: 10px;
-}
-.icons .github{
+
+.icons .twitter {
   margin-right: 10px;
 }
 
-/*----MEDIA QUERY-------*/
+.icons .vector2 {
+  margin-right: 10px;
+}
 
-@media screen and(min-width:375px) {
+.icons .vectorM {
+  margin-right: 10px;
+}
+
+.icons .github {
+  margin-right: 10px;
+}
+
+/* ----MEDIA QUERY------- */
+
+@media screen and(min-width: 375px) {
   .container {
     position: absolute;
     width: 375px;
     height: 718px;
-    left: 0px;
-    top: 0px;
-    background: #ffffff;
+    left: 0;
+    top: 0;
+    background: #fff;
   }
 }

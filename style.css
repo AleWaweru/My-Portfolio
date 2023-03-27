@@ -1,11 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,600;1,700;1,900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: #e5e5e5;
 }
 
 #bg-Img {
@@ -14,10 +13,7 @@ body {
   height: 588px;
 }
 
-.main {
-  padding: 40px 24px 40px 24px;
-}
-
+/*header section styling*/
 .header {
   display: flex;
   justify-content: space-between;
@@ -33,7 +29,7 @@ body {
 }
 
 .heading p {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -42,13 +38,19 @@ body {
 }
 
 .heading a {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
   text-decoration: none;
+}
+
+/*Main section styling*/
+
+.main {
+  padding: 40px 24px 40px 24px;
 }
 
 .main ul {

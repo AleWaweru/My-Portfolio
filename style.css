@@ -13,7 +13,7 @@ body {
   height: 588px;
 }
 
-/*header section styling*/
+/* header section styling */
 .header {
   display: flex;
   justify-content: space-between;
@@ -47,7 +47,7 @@ body {
   text-decoration: none;
 }
 
-/*Main section styling*/
+/* Main section styling */
 
 .main {
   padding: 40px 24px 40px 24px;

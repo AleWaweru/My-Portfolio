@@ -20,6 +20,10 @@ body {
   padding: 58px 24px 58px 38px;
 }
 
+.heading {
+  width: 303px;
+}
+
 .heading h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;

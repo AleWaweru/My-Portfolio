@@ -1,86 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,600;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-body {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-#bg-Img {
-  background-image: url(images/bg-image.png);
-  background-repeat: no-repeat;
-  height: 588px;
-}
-
-/* header section styling */
-.header {
-  display: flex;
-  justify-content: space-between;
-  padding: 58px 24px 58px 38px;
-}
-
-.heading {
-  width: 303px;
-}
-
-.heading p {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #344563;
-}
-
-.heading h2 {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #172b4d;
-  text-decoration: none;
-}
-
-/* Main section styling */
-
-.main {
-  padding: 40px 24px 40px 24px;
-}
-
-.main ul {
-  display: flex;
-  margin-left: -60px;
-}
-
-.main li {
-  list-style: none;
-}
-
-.main ul li a {
-  margin-left: 20px;
-}
-
 .heading h1 {
   width: 327px;
   height: 150px;
-
-  /* Header / 2 */
-
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-
-  /* or 130% */
-
   display: flex;
   align-items: center;
-
-  /* Neutrals/N800 */
-
   color: #172b4d;
 }
 
@@ -129,6 +59,14 @@ body {
   width: 100%;
 }
 
+.heading h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
 #frame2 h2 {
   width: 88px;
   height: 16px;
@@ -146,16 +84,16 @@ body {
   display: flex;
 }
 
-.skill-Img li {
-  display: flex;
-  justify-content: space-between;
-}
-
 .frame-Img li {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
   height: 72px;
+}
+
+.skill-Img li {
+  display: flex;
+  justify-content: space-between;
 }
 
 .Tags ul li {
@@ -260,9 +198,10 @@ body {
 .frame {
   position: absolute;
   height: 24px;
-  left: 12px;
+  left: 25px;
   right: 78px;
   font-family: 'Poppins', sans-serif;
+  font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
@@ -277,7 +216,7 @@ body {
 .skill {
   position: absolute;
   height: 24px;
-  left: 12px;
+  left: 25px;
   right: 78px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;

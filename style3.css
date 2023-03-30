@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.heading h2 {
+  width: 327px;
+  height: 35px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+}
+
+#bg-work1 {
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  width: 327px;
+  height: 780px;
+  background-color: #fff;
+  opacity: 20px;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  margin-top: 170px;
+  justify-content: space-between;
+}
+
+.work-container {
+  display: grid;
+}
+
+.container {
+  display: grid;
+  width: 375px;
+}
+
+.about {
+  margin-top: 70px;
+}
+
+.work-content h2 {
+  width: 20px;
+}
+
+.work-content h4 {
+  width: 295px;
+  height: 38px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.skill-list {
+  margin-bottom: -10px;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-left: 24px;
+  height: 680px;
+}
+
+.frame-Img {
+  justify-content: space-between;
+  border-bottom: #dfe1e6 solid 2px;
+  padding: 20px;
+  display: flex;
+  margin-top: -100px;
+  margin-bottom: -180px;
+}
+
+.top-frame {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.top-frame img {
+  margin-right: 37px;
+  margin-top: 20px;
+}
+
+.frame-up {
+  margin-left: 24px;
+}
+
+#frame2 {
+  width: 100%;
+}
+
+.counter-Img {
+  width: 45px;
+}
+
+.language h2 {
+  height: 24px;
+  left: 12px;
+  right: 78px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #000;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.Tags ul li h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 18px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 6px;
+  width: 60px;
+  height: 24px;
+  background: #ebebff;
+  border-radius: 8px;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+#frame2 h2 {
+  width: 98px;
+  height: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.skill {
+  position: absolute;
+  height: 24px;
+  left: 30px;
+  right: 78px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.frame {
+  position: absolute;
+  height: 24px;
+  left: 18px;
+  right: 78px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #000;
+  margin-left: 10px;
+}
+
+#counter-Img {
+  background-image: url(images/Counter.png);
+  width: 8px;
+  height: 8px;
+  display: flex;
+}
+
+.frame-Img li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  height: 72px;
+}
+
+.skill-Img li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Tags ul li {
+  width: 60px;
+  margin-left: 20px;
+}
+
+.heading h3 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  text-decoration: none;
+}
+
+.skill-Img {
+  margin-bottom: -180px;
+  margin-top: -250px;
+  border-bottom: #dfe1e6 solid 2px;
+  padding: 20px;
+}
+
+.frame-Img img {
+  margin-top: 25px;
+}
+
+.skill-list ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  width: 327px;
+  height: 250.15px;
+  margin-left: 0;
+}
+
+.right-img {
+  margin-right: 27px;
+}
+
+.right-img2 {
+  margin-right: 27px;
+}
+
+.language-list {
+  margin-bottom: 20px;
+}
+
+.frame-skill {
+  height: 0;
+  margin: 0 0 0 0;
+}

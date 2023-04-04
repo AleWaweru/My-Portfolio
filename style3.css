@@ -114,6 +114,21 @@
   margin-bottom: 5px;
 }
 
+.contact-header h2 {
+  position: absolute;
+  margin-bottom: 70px;
+  margin-left: 60px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
 .Tags ul li h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -147,7 +162,7 @@
   height: 24px;
   left: 30px;
   right: 78px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -163,7 +178,7 @@
   height: 24px;
   left: 18px;
   right: 78px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 15px;
@@ -190,6 +205,15 @@
 .skill-Img li {
   display: flex;
   justify-content: space-between;
+}
+
+.contact-list li {
+  list-style: none;
+  background-color: #fff;
+  border: 2px solid #cfd8dc;
+  border-radius: 8px;
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
 
 .Tags ul li {
@@ -242,4 +266,150 @@
 .frame-skill {
   height: 0;
   margin: 0 0 0 0;
+}
+
+/* Contact styling section */
+
+.contact-container {
+  height: 880px;
+  left: 0;
+  top: 5910px;
+  background-color: #6070ff;
+  background-image: url(images/contact-bg.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: -100px;
+  padding-right: 10px;
+  border-top-left-radius: 60px;
+  margin-top: -40px;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 63vw;
+}
+
+.contact-main {
+  width: 100%;
+  height: 700px;
+}
+
+.contact-header {
+  margin-top: 90px;
+  margin-bottom: 400px;
+  width: 60%;
+}
+
+.contact-header p {
+  position: absolute;
+  margin-top: 100px;
+  margin-bottom: 70px;
+  margin-left: 15px;
+  width: 85%;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+}
+
+.contact-list {
+  margin-right: 40px;
+  margin-left: -20px;
+  width: 90%;
+  margin-bottom: 10px;
+  border: none;
+  overflow: hidden;
+}
+
+.contact-list li:hover {
+  text-decoration: underline rgb(21, 219, 203) 3px;
+  cursor: pointer;
+  transform: scaleY(3 ease);
+}
+
+.contact-list li input {
+  width: 95%;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: rgb(27, 27, 27);
+  overflow: hidden;
+}
+
+.contact-list li input:hover {
+  text-decoration: underline rgb(21, 219, 203) 3px;
+  cursor: pointer;
+}
+
+.contact-list li textarea {
+  width: 95%;
+  padding-left: 10px;
+  padding-top: 15px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  transition: 0.3s;
+}
+
+.contact-list li textarea:hover {
+  text-decoration: underline rgb(21, 219, 203) 3px;
+  border: rgb(21, 219, 203) !important;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  border: none;
+  width: 142px;
+  height: 48px;
+  left: 24px;
+  top: 5317px;
+  margin-left: 20px;
+  background: #fff;
+  border-radius: 8px;
+  color: #6070ff;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-btn:hover {
+  text-decoration: underline rgb(21, 219, 203) 3px;
+  border: rgb(21, 219, 203) !important;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-img2 {
+  width: 134px;
+  height: 5px;
+  bottom: 8px;
+  border-radius: 10px;
+  align-items: center;
+  margin-left: 100px;
+  margin-top: 20px;
 }

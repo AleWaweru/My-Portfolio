@@ -21,20 +21,11 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 My-Portfolio <a name="Building Personal Portfolio"></a>
-
-
-
-**My-Portfolio** is a... microverse module 1 project for building personal portfolio
-
-## 🛠 Built With <a name="built-with"></a>
-
-### Tech Stack <a name="tech-stack"></a>
+# 📖 My-Portfolio <a></a>
 
 
 <details>
@@ -56,6 +47,8 @@
 - **HEADER SECTION**
 - **MAIN SECTION**
 - **IMAGES**
+- **CONTACT FORM**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -142,7 +135,7 @@ Example command:
 ### Deployment
 
 You can deploy this project using:
-
+https://alewaweru.github.io/My-Portfolio/
 
 Example:
 
@@ -173,11 +166,11 @@ not required
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-
-
 - [ ] **SIDEBAR SECTIONS**
 - [ ] **NAVBAR SECTIONS**
 - [ ] **FOOTER SECTIONS**
+- [ ] **CONTACT SECTIONS**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -195,9 +188,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project you can leave a star to it.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -205,18 +196,14 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thank Microverse for giving us an opportunity to learn more about Front-End Development.
+I would also like to thank my coding partner David Katende and Kemboi for the support toward the completion of this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
+ what technology did I use to build the project?
+ where is the source code for the project?
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

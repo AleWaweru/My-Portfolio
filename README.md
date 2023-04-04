@@ -26,15 +26,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 My-Portfolio <a name="Building Personal Portfolio"></a>
-
-
-
-**My-Portfolio** is a... microverse module 1 project for building personal portfolio
-
-## 🛠 Built With <a name="built-with"></a>
-
-### Tech Stack <a name="tech-stack"></a>
+# 📖 My-Portfolio <a></a>
 
 
 <details>
@@ -144,7 +136,7 @@ Example command:
 ### Deployment
 
 You can deploy this project using:
-
+https://alewaweru.github.io/My-Portfolio/
 
 Example:
 
@@ -211,16 +203,11 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank Microverse for giving us an opportunity to learn more about Front-End Development. I would also like my coding partner David Katende.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
 > Add at least 2 questions new developers would ask when they decide to use your project.
-
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

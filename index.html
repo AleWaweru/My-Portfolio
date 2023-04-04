@@ -14,6 +14,10 @@
    
     <!--Used two external CSS files to style my project due to unresponsiveness of my browser-->
 </head>
+<style>
+
+
+</style>
 
 <body>
     <!--Header section-->
@@ -246,8 +250,36 @@
                         </li> 
                     
             </ul>
-            
         </section>
+        </section>
+        <section class="contact-container">
+                <section class="contact-main">
+                    <div class="contact-header">
+                        <h2>Contact me</h2>
+                        <p>If you have an application you are interested in developing, 
+                            a feature that you need built or a project that needs coding. 
+                            I’d love to help with it!</p>
+                    </div>
+                    
+                    <form action="https://formspree.io/f/meqwrvaw" method="POST">
+                        <ul class="contact-list">
+                            <li>
+                                <input type="text" name="name" maxlength="30" id="name" placeholder="Lorem Ipsum" required>
+                            </li>
+                            <li>
+                                <input type="email" name="email"  id="email" placeholder="loremipsum@gmail.com" required >
+                            </li>
+                            <li>
+                                <textarea name="message" id="tname" maxlength="500" cols="30" rows="10" placeholder="Write your message here..." required></textarea>
+                            </li>
+                        </ul>
+                        <button class="contact-btn" type="submit">Get Intouch</button>
+                    </form>
+                    <div class="contact-img2">
+                        <img src="images/Shape.png" alt="">
+                    </div>
+                </section>
+
         </section>
     </section>
 </body>

@@ -56,6 +56,8 @@
 - **HEADER SECTION**
 - **MAIN SECTION**
 - **IMAGES**
+- **CONTACT FORM**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -178,6 +180,8 @@ not required
 - [ ] **SIDEBAR SECTIONS**
 - [ ] **NAVBAR SECTIONS**
 - [ ] **FOOTER SECTIONS**
+- [ ] **CONTACT SECTIONS**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

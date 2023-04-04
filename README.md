@@ -191,9 +191,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project you can leave a star to it.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -201,13 +199,14 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank Microverse for giving us an opportunity to learn more about Front-End Development. I would also like my coding partner David Katende.
+I would like to thank Microverse for giving us an opportunity to learn more about Front-End Development.
+I would also like to thank my coding partner David Katende.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+
+ what technology did I use to build the project?
+ where is the source code for the project?
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

@@ -22,8 +22,11 @@
   body {
     background-color: #f4f5f7;
   }
-
-
+  
+  .menu-icon {
+    display: none;
+  }
+  
   .header {
     background-color: #fff;
     width: 100%;

@@ -41,10 +41,13 @@ html {
 
 .navbar-text {
   text-decoration: none;
-  color: #0e26f8;
+  color: #6070FF;
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
+}
+.menu-lists li .item{
+  color: #344563;
 }
 
 .info-text:focus {
@@ -167,6 +170,19 @@ ul.primarytext3 {
   display: flex;
   align-items: center;
 }
+.project1, .project2, .project3 {
+  color: #396df2;
+  border-radius: 8px;
+  border: 1px #6070ff solid;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  word-spacing: 3px;
+  margin-top: -4px;
+  padding: 8px 12px;
+  text-align: center;
+  background-color: #fff;
+}
 
 .canopy {
   font-style: normal;
@@ -208,17 +224,6 @@ ul.primarytext3 {
   padding: 8px 12px;
   text-align: center;
   background-color: #fff;
-}
-
-.project:hover {
-  background-color: #535ca8;
-  border-color: #535ca8;
-  color: #fff;
-}
-
-.project:active {
-  background-color: #4053fc;
-  color: #fff;
 }
 
 .project:disabled {

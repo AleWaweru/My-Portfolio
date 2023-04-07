@@ -22,13 +22,24 @@
   }
 
   .header {
-    /* opacity: 0; */
-    background: rgba(76, 175, 80, 0.1);
-    position: fixed;
+    background-color:#fff;
     width: 100%;
-    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-    z-index: 6;
   }
+  .menu-icon {
+    display: none;
+  }
+  .header {
+    background-color:#fff;
+    width: 100%;
+  }
+
+ul li a{
+  color:  #344563;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+}
 
   .menu-lists {
     display: flex;
@@ -51,14 +62,12 @@
     align-items: center;
     margin: auto;
   }
-
   .about-main {
     background-image: url(./Image/Header\ bg2x.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 110vh;
-    position: relative;
     top: 50px;
     margin-bottom: 60px;
   }
@@ -112,10 +121,6 @@
 
   .works-container > * {
     flex: 1;
-  }
-
-  .works-container:hover {
-    transform: scale(0.9);
   }
 
   .works-container:nth-child(even) {
@@ -193,6 +198,23 @@
 
   .text-container {
     width: 120%;
+  }
+
+  .primarytext4 .project{
+    background-color: #4053FC;
+    color: #fff;
+    transform: scale(0.9);
+  }
+  .primarytext4 .project:hover{
+    border: #A7AEFF;
+    cursor:pointer;
+    transform: scale(0.9);
+    box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+border-radius: 8px;
+  }
+  .normal-button{
+    color: #396DF2;
+    background: #fff;
   }
 
   .second-text {
@@ -280,6 +302,8 @@
 
   .git-in-touch {
     margin-left: 175px;
+    color: #6070FF;
+
   }
 
   .form-list li {

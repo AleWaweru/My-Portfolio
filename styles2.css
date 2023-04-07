@@ -19,10 +19,10 @@
 }
 
 @media screen and (min-width: 768px) {
-
-  body{
+  body {
     background-color: #f4f5f7;
   }
+
   .menu-icon {
     display: none;
   }

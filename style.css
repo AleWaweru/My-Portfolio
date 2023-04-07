@@ -41,12 +41,13 @@ html {
 
 .navbar-text {
   text-decoration: none;
-  color: #6070FF;
+  color: #6070ff;
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
 }
-.menu-lists li .item{
+
+.menu-lists li .item {
   color: #344563;
 }
 
@@ -170,7 +171,10 @@ ul.primarytext3 {
   display: flex;
   align-items: center;
 }
-.project1, .project2, .project3 {
+
+.project1,
+.project2,
+.project3 {
   color: #396df2;
   border-radius: 8px;
   border: 1px #6070ff solid;

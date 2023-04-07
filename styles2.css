@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
 .form-list li {
   list-style: none;
 }
@@ -22,24 +24,17 @@
   }
 
   .header {
-    background-color:#fff;
-    width: 100%;
-  }
-  .menu-icon {
-    display: none;
-  }
-  .header {
-    background-color:#fff;
+    background-color: #fff;
     width: 100%;
   }
 
-ul li a{
-  color:  #344563;
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-}
+  ul li a {
+    color: #344563;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+  }
 
   .menu-lists {
     display: flex;
@@ -62,6 +57,7 @@ font-size: 15px;
     align-items: center;
     margin: auto;
   }
+
   .about-main {
     background-image: url(./Image/Header\ bg2x.png);
     background-position: center;
@@ -200,20 +196,22 @@ font-size: 15px;
     width: 120%;
   }
 
-  .primarytext4 .project{
-    background-color: #4053FC;
+  .primarytext4 .project {
+    background-color: #4053fc;
     color: #fff;
     transform: scale(0.9);
   }
-  .primarytext4 .project:hover{
-    border: #A7AEFF;
-    cursor:pointer;
+
+  .primarytext4 .project:hover {
+    border: #a7aeff;
+    cursor: pointer;
     transform: scale(0.9);
-    box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
-border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+    border-radius: 8px;
   }
-  .normal-button{
-    color: #396DF2;
+
+  .normal-button {
+    color: #396df2;
     background: #fff;
   }
 
@@ -302,8 +300,7 @@ border-radius: 8px;
 
   .git-in-touch {
     margin-left: 175px;
-    color: #6070FF;
-
+    color: #6070ff;
   }
 
   .form-list li {

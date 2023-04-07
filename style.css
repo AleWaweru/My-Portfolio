@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
-
 * {
   margin: 0;
   padding: 0;
@@ -32,13 +31,12 @@ html {
   display: none;
 }
 
-.navbar{
+.navbar {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-family: "Poppins", sans-serif;
-  
 }
 
 .navbar-text {
@@ -54,7 +52,6 @@ html {
   padding: 2px;
   border-radius: 4px;
 }
-
 
 .about-main .about {
   padding: 24px;
@@ -453,6 +450,10 @@ ul.socail-media-icon1 {
   color: #253858;
 }
 
+.form-list li {
+  list-style: none;
+}
+
 ul.socail-media-icon1 li {
   display: inline-block;
   margin: 0;
@@ -466,13 +467,8 @@ hr {
   width: 95%;
   height: 0.1px;
 }
-.form-list li{
-  list-style: none;
-}
 
-
-/*Contact container*/
-
+/* Contact container */
 
 .contact-me {
   margin: 0 auto;
@@ -509,9 +505,6 @@ hr {
 
 .form-container {
   margin-left: 25px;
-}
- .form-list li{
-  list-style: none;
 }
 
 .first-name {
@@ -568,4 +561,3 @@ hr {
   font-size: 17px;
   font-weight: 500;
 }
-

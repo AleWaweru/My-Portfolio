@@ -109,6 +109,11 @@ html {
   border-radius: 10px;
   background-color: #fff;
   padding: 16px;
+  border: 1px solid #fff;
+}
+.works-container:hover{
+  border: 1px solid  #A7AEFF;
+  box-shadow: 0px 8px 16px #e4e6ef;
 }
 
 .works-container-image {
@@ -172,9 +177,7 @@ ul.primarytext3 {
   align-items: center;
 }
 
-.project1,
-.project2,
-.project3 {
+.project {
   color: #396df2;
   border-radius: 8px;
   border: 1px #6070ff solid;
@@ -186,6 +189,17 @@ ul.primarytext3 {
   padding: 8px 12px;
   text-align: center;
   background-color: #fff;
+}
+
+.project:hover {
+  background-color:#6070FF;
+  border: 1px #6070ff solid;
+  color: #FFF;
+}
+
+.project:active {
+  background-color:#2230D2;
+  color: #FFF;
 }
 
 .canopy {

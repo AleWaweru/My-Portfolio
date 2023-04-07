@@ -19,6 +19,10 @@
 }
 
 @media screen and (min-width: 768px) {
+
+  body{
+    background-color: #f4f5f7;
+  }
   .menu-icon {
     display: none;
   }
@@ -194,20 +198,6 @@
 
   .text-container {
     width: 120%;
-  }
-
-  .primarytext4 .project {
-    background-color: #4053fc;
-    color: #fff;
-    transform: scale(0.9);
-  }
-
-  .primarytext4 .project:hover {
-    border: #a7aeff;
-    cursor: pointer;
-    transform: scale(0.9);
-    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
-    border-radius: 8px;
   }
 
   .normal-button {

@@ -197,7 +197,7 @@ If you like this project you can leave a star to it.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse for giving us an opportunity to learn more about Front-End Development.
-I would also like to thank my coding partner David Katende and Kemboi for the support toward the completion of this project.
+I would also like to thank my coding partners David Katende, Kemboi and Edwin Gichuhi for the support toward the completion of this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

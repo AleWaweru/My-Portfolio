@@ -27,30 +27,6 @@ html {
   background-color: #fff;
 }
 
-.menu-lists {
-  display: none;
-}
-
-.navbar {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-family: "Poppins", sans-serif;
-}
-
-.navbar-text {
-  text-decoration: none;
-  color: #6070ff;
-  font-size: 20px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.menu-lists li .item {
-  color: #344563;
-}
-
 .info-text:focus {
   outline: 2px solid #273bf3;
   padding: 2px;

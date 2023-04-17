@@ -23,37 +23,6 @@
     background-color: #f4f5f7;
   }
 
-  .menu-icon {
-    display: none;
-  }
-
-  .header {
-    background-color: #fff;
-    width: 100%;
-  }
-
-  ul li a {
-    color: #344563;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-  }
-
-  .menu-lists {
-    display: flex;
-    list-style-type: none;
-    color: #344563;
-  }
-
-  li.item a {
-    margin: 10px;
-    font-size: 15px;
-    text-decoration: none;
-    margin-right: 32px;
-    cursor: pointer;
-  }
-
   .info {
     max-width: 1200px;
     display: flex;

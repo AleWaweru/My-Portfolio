@@ -9,10 +9,11 @@
   position: absolute;
   top: 0;
   right: 20px;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   cursor: pointer;
   color: white;
   margin: 15px;
+  
 }
 
 .menuLists {
@@ -37,6 +38,11 @@
   font-size: 1.6rem;
   color: #f4f5f7;
   padding: 24px;
+}
+.menuLists li{
+    justify-content: center;
+    margin-left: 20px;
+    top: 50rem;
 }
 
 .navbar {

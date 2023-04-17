@@ -5,35 +5,38 @@
 }
 
 .closeMenu {
-  display: block;
+  display: flex;
   position: absolute;
   top: 0;
   right: 20px;
-  font-size: 2rem;
+  font-size: 1.3rem;
   cursor: pointer;
+  color: white;
+  margin: 15px;
 }
 
 .menuLists {
   list-style: none;
   height: 100vh;
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   left: 0;
   width: 100%;
   flex-direction: column;
-  justify-content: center;
-  gap: 3rem;
-  align-items: center;
-  background: #5e5b5b;
+  gap: 2rem;
+  background: #6070ff;
+  backdrop-filter: blur(8px);
+  mix-blend-mode: multiply;
   transition: top 0.5s ease;
   display: none;
 }
 
 .menuLists li a {
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.6rem;
   color: #f4f5f7;
+  padding: 24px;
 }
 
 .navbar {

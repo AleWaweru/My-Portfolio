@@ -66,32 +66,29 @@
     margin-bottom: 5%;
   }
 
-  .close{
-   
+  .close {
     font-size: 2rem;
-   border: none;
-       margin-left: 100px;
-     }
-   
-     .titles {
-       overflow: scroll;
-   }
-     
-     .primarytext-title{
-       font-size: 30px;
-       width: 100%;
-       line-height: 54px;
-       margin-right: 677.8px;
-     }
-     
-     .imageDesktop{
-       width: 1020px;
-       height: 586px;
-       margin-right: 30px;
-       margin-left: 30px;
-      
-     }
+    border: none;
+    margin-left: 100px;
+  }
 
+  .titles {
+    overflow: scroll;
+  }
+
+  .primarytext-title {
+    font-size: 30px;
+    width: 100%;
+    line-height: 54px;
+    margin-right: 677.8px;
+  }
+
+  .imageDesktop {
+    width: 1020px;
+    height: 586px;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
 }
 
 .btn-live {

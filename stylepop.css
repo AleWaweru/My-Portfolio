@@ -322,8 +322,8 @@ html {
 }
 
 .primarytext-title {
-  font-size: 38px;
-  margin-block: 15px;
+  font-size: 30px;
+  margin-left: 25px;
   color: #172b4d;
 }
 
@@ -940,10 +940,7 @@ hr {
     margin-top: -70px;
   }
 
-  .primarytext-title {
-    font-size: 40px;
-    line-height: 54px;
-  }
+  
 
   .frame {
     justify-content: flex-start;

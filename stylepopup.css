@@ -50,13 +50,6 @@
     transition: 0.2s ease;
   }
 
-  .primarytext-title {
-    font-size: 38px;
-    margin-block: 15px;
-    color: #172b4d;
-    margin-right: 530px;
-  }
-
   .frame .canopy2 {
     display: none;
   }
@@ -66,14 +59,6 @@
     right: 10%;
   }
 
-  .imageDesktop {
-    width: 95%;
-    margin-left: 2%;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    height: 41.5vh;
-  }
-
   .tonic-text {
     float: left;
     width: 63%;
@@ -81,15 +66,32 @@
     margin-bottom: 5%;
   }
 
-  .titles {
-    width: 100%;
-    justify-content: space-between;
-    gap: 40rem;
-  }
+  .close{
+   
+    font-size: 2rem;
+   border: none;
+       margin-left: 100px;
+     }
+   
+     .titles {
+       overflow: scroll;
+   }
+     
+     .primarytext-title{
+       font-size: 30px;
+       width: 100%;
+       line-height: 54px;
+       margin-right: 677.8px;
+     }
+     
+     .imageDesktop{
+       width: 1020px;
+       height: 586px;
+       margin-right: 30px;
+       margin-left: 30px;
+      
+     }
 
-  .close {
-    margin-left: -100%;
-  }
 }
 
 .btn-live {

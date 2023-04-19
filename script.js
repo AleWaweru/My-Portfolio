@@ -220,7 +220,8 @@ seeproject.forEach((p) => p.addEventListener('click', (p) => {
         </button>
     </div>
         </div>
- </div>`;
+        </div>
+      </div>`;
 
   const live = document.getElementById('live');
   const source = document.getElementById('source');

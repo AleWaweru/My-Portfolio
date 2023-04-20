@@ -17,7 +17,7 @@ function close() {
 openMenu.addEventListener('click', show);
 closeMenu.addEventListener('click', close);
 
-menuItems.forEach((item) => {
+menuItems.forEach(item => {
   item.addEventListener('click', () => {
     close();
   });
@@ -35,8 +35,10 @@ const Projects = [
     specialization1: 'Back End Dev',
     year: '2015',
     year1: '2015',
-    description: 'A daily selection of privately <br class="must-ignor">personalized reads;no accounts or <br class="must-ignor">sign-ups required.',
-    description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+    description:
+      'A daily selection of privately <br class="must-ignor">personalized reads;no accounts or <br class="must-ignor">sign-ups required.',
+    description1:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
     technologies: {
       tech1: 'html',
       techE: 'Ruby on rials',
@@ -60,8 +62,10 @@ const Projects = [
     specialization1: 'Full Stack Dev',
     year: '2015',
     year1: '2015',
-    description: 'A daily selection of privately <br class="must-ignor">personalized reads;no accounts or <br class="must-ignor">sign-ups required.',
-    description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+    description:
+      'A daily selection of privately <br class="must-ignor">personalized reads;no accounts or <br class="must-ignor">sign-ups required.',
+    description1:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
 
     technologies: {
       tech1: 'html',
@@ -86,8 +90,10 @@ const Projects = [
     specialization1: 'Full Stack Dev',
     year: '2015',
     year1: '2015',
-    description: 'A daily selection of privately <br class="must-ignor">personalized reads;no accounts or <br class="must-ignor">sign-ups required.',
-    description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+    description:
+      'A daily selection of privately <br class="must-ignor">personalized reads;no accounts or <br class="must-ignor">sign-ups required.',
+    description1:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
     technologies: {
       tech1: 'html',
       techE: 'Ruby on rials',
@@ -111,8 +117,10 @@ const Projects = [
     specialization1: 'Lead Developer',
     year: '2015',
     year1: '2018',
-    description: 'A daily selection of privately <br class="must-ignor">personalized reads;no accounts or <br class="must-ignor">sign-ups required.',
-    description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+    description:
+      'A daily selection of privately <br class="must-ignor">personalized reads;no accounts or <br class="must-ignor">sign-ups required.',
+    description1:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
     technologies: {
       tech1: 'html',
       techE: 'Ruby on rials',
@@ -126,7 +134,7 @@ const Projects = [
     source: 'https://github.com/AleWaweru/My-Portfolio',
   },
 ];
-Projects.forEach((project) => {
+Projects.forEach(project => {
   const cardDiv = document.createElement('div');
   cardDiv.innerHTML = ` <div class="works-container fist-works-container">
   <img src="${project.imageMobile}" alt="Tonic-image" class="works-container-image must-ignor1">
@@ -170,11 +178,12 @@ const seeproject = document.querySelectorAll('.project');
 const popup = document.querySelector('.popup');
 const over = document.querySelector('.over');
 
-seeproject.forEach((p) => p.addEventListener('click', (p) => {
-  const { id } = p.target;
-  const pop = Projects.find((p) => p.id === id);
+seeproject.forEach(p =>
+  p.addEventListener('click', p => {
+    const {id} = p.target;
+    const pop = Projects.find(p => p.id === id);
 
-  popup.innerHTML = `
+    popup.innerHTML = `
   <div class="titles">
    <div class="title">
   <h2 class="primarytext-title must-ignor">${pop.title}</h2>
@@ -223,34 +232,35 @@ seeproject.forEach((p) => p.addEventListener('click', (p) => {
         </div>
       </div>`;
 
-  const live = document.getElementById('live');
-  const source = document.getElementById('source');
+    const live = document.getElementById('live');
+    const source = document.getElementById('source');
 
-  live.addEventListener('click', () => {
-    document.location.href = pop.live;
-  });
+    live.addEventListener('click', () => {
+      document.location.href = pop.live;
+    });
 
-  source.addEventListener('click', () => {
-    document.location.href = pop.source;
-  });
+    source.addEventListener('click', () => {
+      document.location.href = pop.source;
+    });
 
-  popup.classList.toggle('active');
-  over.classList.toggle('active');
+    popup.classList.toggle('active');
+    over.classList.toggle('active');
 
-  const close = document.querySelector('.close');
+    const close = document.querySelector('.close');
 
-  close.addEventListener('click', () => {
-    popup.classList.remove('active');
-    over.classList.remove('active');
-  });
-}));
+    close.addEventListener('click', () => {
+      popup.classList.remove('active');
+      over.classList.remove('active');
+    });
+  })
+);
 
 const form = document.querySelector('form');
 const nameInput = document.getElementById('fname');
 const emailInput = document.getElementById('email');
 const textAreaInput = document.getElementById('message');
 const errorElement = document.getElementById('error');
-form.addEventListener('submit', (event) => {
+form.addEventListener('submit', event => {
   const errorMessages = [];
 
   if (nameInput.value.trim() === '') {
@@ -268,6 +278,6 @@ form.addEventListener('submit', (event) => {
 
     errorElement.textContent = errorMessages.join('. ');
   } else {
-    errorElement.textContent = '';
+    errorElement.textContent = ``;
   }
 });

@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="stylepop.css">
     <link rel="stylesheet" href="stylepopup.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
-
     <title>Alex's Portfolio</title>
 </head>
 
@@ -148,29 +147,27 @@
                 <form action="https://formspree.io/f/meqwrvaw" method="POST">
                     <ul class="form-list">
                         <li>
-                            <input class="first-name" type="text" name="fullname" maxlength="30" minlength="2"
+                            <input class="first-name" id="fname" type="text" name="fullname" maxlength="30" minlength="2"
                          placeholder="Lorem Ipsum" required>
 
                         </li>
                         <li>
-                            <input class="first-name" type="email" name="email" placeholder="loremipsum@gmail.com" required>
+                            <input class="first-name" id="email" type="email" name="email" placeholder="loremipsum@gmail.com" required>
                             
                         </li>
                         <li>
-                            <textarea class="contact-textarea" name="message" id="" required cols="30" rows="10"
-                                placeholder="Write your message here..." maxlength="500"></textarea>
+                            <textarea class="contact-textarea" id="message" name="message"  cols="30" rows="10"
+                                placeholder="Write your message here..." maxlength="500"  required></textarea>
                         </li>
-                    </ul>
-                  
-                    <button class="git-in-touch">Get in touch</button>
+                    </ul>                                                                                              
+                    <button class="git-in-touch">Get in touch</button><br>
+                    <span class="errors" id="error" ></span>  
                 </form>
+                
             </div>
         </section>
     </div>
-
-    <!------------------Popup window project------------------------>
     
-
 </div>
 <div class="popup">
 </div>
@@ -178,7 +175,5 @@
 <div class="over"></div>
 <script src="script.js"></script>
 </body>
-
-
 
 </html>

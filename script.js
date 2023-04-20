@@ -250,15 +250,19 @@ const nameInput = document.getElementById('fname');
 const emailInput = document.getElementById('email');
 const textAreaInput = document.getElementById('message');
 const errorElement = document.getElementById('error');
+
 form.addEventListener('submit', (event) => {
   const errorMessages = [];
 
   if (nameInput.value.trim() === '') {
     errorMessages.push('Name field is required');
+
   } else if (emailInput.value.trim() === '') {
     errorMessages.push('Email field is required');
+
   } else if (emailInput.value !== emailInput.value.toLowerCase()) {
     errorMessages.push('Email must be in lowercase');
+
   } else if (textAreaInput.value.trim() === '') {
     errorMessages.push('Message field is required');
   }
@@ -271,3 +275,34 @@ form.addEventListener('submit', (event) => {
     errorElement.textContent = '';
   }
 });
+
+const changeEvent = function () {
+  const userName = document.getElementById('fname').value;
+  const userEmail = document.getElementById('email').value;
+  const message = document.getElementById('message').value;
+
+  const data = {
+    name: userName,
+    email : userEmail,
+    message,
+  };
+  
+  const jsonData = JSON.stringify(data);
+  localStorage.setItem('data', jsonData);
+};
+
+const localData = JSON.parse(localStorage.getItem('data'));
+document.getElementById('fname').value = localData.name;
+document.getElementById('email').value = localData.email;
+document.getElementById('message').value = localData.message;
+
+const formBtn = document.querySelector('.git-in-touch');
+formBtn.addEventListener('change', changeEvent);
+
+
+
+
+
+
+
+

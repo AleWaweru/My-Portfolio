@@ -160,7 +160,7 @@ not required
 
 - GitHub: [@githubhandle](https://github.com/AleWaweru/My-Portfolio)
 - Twitter: [@twitterhandle](https://twitter.com/ngashalex)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/alex-waweru-2b2701180/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/alex-ng-ang-a-waweru-2b2701180/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
